@@ -1,8 +1,8 @@
 {
   "name": "name",
   "main": "index.html",
-  "pluginName": "pluginName",
-  "description": "description",
+  "pluginName": "excelx",
+  "description": "excel可视化数据清洗工具",
   "author": "zangguojun",
   "homepage": "homepage",
   "version": "0.0.1",
@@ -12,9 +12,23 @@
   "logo": "src/public/logo.jpg",
   "features": [
     {
-      "code": "hello",
-      "explain": "hello world",
-      "cmds": ["hello", "你好"]
+      "code": "excelx",
+      "explain": "清洗excel或者csv数据",
+      "cmds": ["excel", "excelx"]
+    },
+    {
+      "code": "file",
+      "explain": "待清洗的excel或者csv数据",
+      "cmds": [
+        {
+          "type": "files",
+          "label": "待清洗的excel或者csv数据",
+          "fileType": "file",
+          "match": "/.xlsx?$/",
+          "minLength": 1,
+          "maxLength": 1
+        }
+      ]
     }
   ]
 }
