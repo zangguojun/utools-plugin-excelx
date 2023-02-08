@@ -1,0 +1,20 @@
+{
+  "name": "name",
+  "main": "index.html",
+  "pluginName": "pluginName",
+  "description": "description",
+  "author": "zangguojun",
+  "homepage": "homepage",
+  "version": "0.0.1",
+  "development": {
+    "main": "http://127.0.0.1:5173/index.html"
+  },
+  "logo": "src/public/logo.jpg",
+  "features": [
+    {
+      "code": "hello",
+      "explain": "hello world",
+      "cmds": ["hello", "你好"]
+    }
+  ]
+}
